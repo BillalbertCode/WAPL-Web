@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> WAPL Company</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./styles/WAPL.css">
+</head>
+
+<body>
+  <header id="header">
+    <figure>
+      <img loading="lazy" src="./src/Logo/LogoWAPL2White.jpeg" id="header-img">
+      <figcaption class="WAPL-title">WAPL</figcaption>
+    </figure>
+    <nav id="nav-bar">
+      <a href="#form" class="nav-link">Contact</a>
+      <a href="#cats" class="nav-link">Clothes</a>
+      <a href="#footer" class="nav-link">Footer</a>
+    </nav>
+  </header>
+  <main>
+    <div id="home">
+      <h1 class="WAPL-title">W<span id="W-active" class="WAPL-Hover">ilces </span>A<span class="WAPL-Hover">ntonio </span>P<span class="WAPL-Hover">eralta </span>L<span class="WAPL-Hover">uces</span></h1>
+      <p>Creemos que la moda y el rendimiento pueden coexistir armoniosamente. Nuestra tienda virtual ofrece una selección cuidadosamente curada de ropa deportiva para hombres activos. </p><p>Buscamos reflejar nuestra dedicación a proporcionar prendas que no solo te ayuden a alcanzar tus objetivos deportivos, sino que también te hagan sentir seguro y con estilo mientras lo haces. Además, ofrecemos guías de tallas precisas y una experiencia de compra sin complicaciones.</p>
+    </div>
+    <div class="container-video">
+      <video controls autoplay preload="auto" id="video" src="./src/Comercity/Video/Comercial1.mp4"></video>
+    </div>
+    <form action="none" id="form" method="post">
+      <label ><p>Te iteresa algo? </p><input  type="email" id="email" name="email" placeholder="email" maxlenght="32" 
+      minlength="8" required/></label>
+      <input class="button-submit" value="Contactar" id="submit" type="submit"/>
+    </form>
+    <section class="cats">
+      <h2>Prendas</h2>
+      <p class="description">Aca un catalogo con nuestras Ropas</p>
+    </section>
+    <section id="cats" class="select-cat">
+      <figure class="cat-container">
+        <img class="cat-photo" loading="lazy" src="./src/Product/IMG/Camiseta WAPL Black.jpeg" >
+        <figcaption class="cat-description description">Camiseta WAPL Black</figcaption>
+        <p class="cat-description-large">Camiseta deportiva de laterales abiertos con el logo en la parte frontal-central-izquierda y posterior-central-superior</p>
+        <a href="#form"><p class="cat-value danger">10$ </p></a>
+      </figure>
+      <figure class="cat-container">
+        <img class="cat-photo" loading="lazy" src="./src/Product/IMG/Franela WAPL Black.jpeg">
+        <figcaption class="cat-description description">Franela WAPL Black</figcaption>
+        <p class="cat-description-large">Franela deportiva manga corta con el logo en la parte frontal-central-izquierda y posterior-central-superior</p>
+        <a href="#form"><p class="cat-value danger">10$</p></a>
+      </figure>
+      <figure class="cat-container">
+        <img class="cat-photo" loading="lazy" src="./src/Product/IMG/Sueter WAPL Black.jpeg" >
+        <figcaption class="cat-description  description">Sueter WAPL Black</figcaption>
+        <p class="cat-description-large">Sueter deportiva manga larga sin cierre con el logo en la parte frontal-central-izquierda y posterior-central-superior.</p>
+        <a href="#form"><p class="cat-value danger">10$</p></a>
+      </figure>
+    </section>
+  </main>
+  <footer id="footer">
+    <section class="links">
+      <a href="#form" class="nav-link">Contact</a>
+      <a href="#cats" class="nav-link">Clothes</a>
+      <a href="#footer" class="nav-link">Footer</a>
+    </section>
+    <aside>
+      <p>Copyright 2024, Wilces Peralta</p>
+      <p>Number Phone: +58 412-7186914</p>
+    </aside>
+      <p>Create for <a href="https:bill.caribito.com/bill/Home">@BillalbertCode</a></p>
+  </footer>
+</body>
+
+</html>
